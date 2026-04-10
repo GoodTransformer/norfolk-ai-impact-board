@@ -4,7 +4,7 @@ export const site = {
     "A proposal for helping Norfolk's business and civic leaders understand and respond to the shift from chatbot AI to agentic AI.",
   eyebrow: "Proposal for discussion",
   note:
-    "Prepared for discussion with Norfolk Chambers of Commerce leadership and relevant digital governance stakeholders."
+    "Prepared for discussion with Norfolk business and civic leadership and relevant digital governance stakeholders."
 };
 
 export const intro = [
