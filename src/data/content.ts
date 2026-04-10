@@ -19,7 +19,7 @@ export const proposalSections = [
     paragraphs: [
       "We are seeing a rapid shift from chatbot AI to agentic AI.",
       "The key difference is that agents can be connected to tools. Agents linked to email, CRMs, spreadsheets, code tools, databases and internal systems are already starting to act in the business world.",
-      "To increase their autonomy and scale, their ecosystem is being built out at speed. They are being offered agent-specific email accounts, credit cards and wikis. This allows them to carry out multi-step, multi-domain work with limited human supervision, acting in both competitive and collaborative ways.",
+      "To increase their autonomy and scale, their ecosystem is being built out at speed. They are being offered agent-specific email accounts, credit cards and wikis. They are already capable of multi-step, multi-domain work with limited human supervision, acting in both competitive and collaborative ways.",
       "This is the beginning of the agentic economy: a shift from AI as advice to AI as execution. That matters because it changes more than productivity software. It changes cost structures, staffing assumptions, competitive pressure, the minimum scale needed to operate effectively, and the speed at which firms can adapt.",
       "Some organisations will gain new, powerful capabilities very quickly. Others will find parts of their workflow, service model or cost base under pressure."
     ]
