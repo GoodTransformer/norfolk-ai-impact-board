@@ -1,0 +1,393 @@
+@import "@fontsource-variable/manrope";
+@import "@fontsource-variable/newsreader";
+
+:root {
+  --ink: #1a1a17;
+  --ink-soft: rgba(26, 26, 23, 0.78);
+  --paper: #f7f3ea;
+  --paper-deep: #efe7d9;
+  --mist: #d8ddd9;
+  --sea: #7f9aa0;
+  --sea-deep: #3e5963;
+  --field: #b8905d;
+  --clay: #b76a43;
+  --clay-deep: #9f5937;
+  --line: rgba(26, 26, 23, 0.13);
+  --line-strong: rgba(26, 26, 23, 0.22);
+  --accent: #b06a3d;
+  --display: "Newsreader Variable", Georgia, serif;
+  --body: "Manrope Variable", "Avenir Next", sans-serif;
+  --container: min(1260px, calc(100% - 2rem));
+  --headline: min(60rem, calc(100% - 2rem));
+  --article: min(44rem, calc(100% - 2rem));
+  --section-space: clamp(3rem, 7vw, 5.5rem);
+  --transition: 220ms ease;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  color: var(--ink);
+  font-family: var(--body);
+  line-height: 1.55;
+  text-rendering: optimizeLegibility;
+  background:
+    linear-gradient(180deg, rgba(247, 243, 234, 0.96), rgba(247, 243, 234, 0.99)),
+    linear-gradient(135deg, rgba(216, 221, 217, 0.36), rgba(176, 106, 61, 0.08));
+}
+
+::selection {
+  background: rgba(184, 111, 61, 0.22);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.page-shell {
+  overflow: clip;
+}
+
+.masthead {
+  width: var(--headline);
+  margin: 0 auto;
+  padding: 1rem 0 2.25rem;
+}
+
+.masthead-inner {
+  display: grid;
+  gap: 2rem;
+  justify-items: center;
+}
+
+.masthead-copy {
+  width: 100%;
+  max-width: 56rem;
+  padding-top: clamp(3rem, 8vw, 6rem);
+  text-align: center;
+}
+
+.eyebrow,
+.signal-source {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 0.78rem;
+  color: var(--sea-deep);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 600;
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  text-wrap: balance;
+}
+
+h1 {
+  margin-top: 0.55rem;
+  font-size: clamp(4rem, 9vw, 6.8rem);
+  max-width: none;
+  line-height: 0.9;
+}
+
+h2 {
+  font-size: clamp(1.8rem, 3.2vw, 2.45rem);
+  max-width: none;
+  line-height: 0.96;
+}
+
+h3 {
+  font-size: clamp(1.22rem, 2vw, 1.55rem);
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+.proposal p,
+.signal-row p,
+.proposal-list li {
+  font-size: clamp(1.04rem, 1.25vw, 1.18rem);
+}
+
+.masthead-note {
+  margin-top: 1.2rem;
+  max-width: 36rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--ink-soft);
+}
+
+.masthead-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.85rem;
+  margin-top: 1.7rem;
+}
+
+.masthead-title {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 10.8ch;
+  text-wrap: initial;
+}
+
+.masthead-title span {
+  display: block;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3rem;
+  padding: 0.82rem 1.25rem;
+  border: 1px solid transparent;
+  text-decoration: none;
+  transition:
+    transform var(--transition),
+    border-color var(--transition),
+    background-color var(--transition),
+    color var(--transition);
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button-solid {
+  background: var(--clay);
+  color: var(--paper);
+}
+
+.button-solid:hover {
+  background: var(--clay-deep);
+}
+
+.button-accent {
+  background: var(--sea-deep);
+  color: var(--paper);
+}
+
+.button-accent:hover {
+  background: #324d56;
+}
+
+.button-line {
+  border-color: var(--line-strong);
+  background: transparent;
+}
+
+.article-shell {
+  width: var(--article);
+  margin: 0 auto;
+  padding-bottom: clamp(4.5rem, 8vw, 7rem);
+}
+
+.proposal {
+  display: grid;
+  gap: 0;
+}
+
+.proposal-intro {
+  padding-bottom: 1.25rem;
+}
+
+.lead {
+  font-family: var(--display);
+  font-size: clamp(1.5rem, 2.4vw, 2rem);
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.proposal-section {
+  padding: 2.2rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.article-figure {
+  width: 100%;
+  margin: 2.6rem 0 2.3rem;
+}
+
+.article-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+  image-rendering: auto;
+}
+
+.article-figure figcaption {
+  margin-top: 0.72rem;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+
+.proposal-section h2 {
+  margin-bottom: 1.1rem;
+  text-wrap: pretty;
+}
+
+.proposal-section p {
+  color: var(--ink-soft);
+}
+
+.proposal-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.proposal-list li {
+  position: relative;
+  padding-left: 1.4rem;
+  margin-bottom: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.proposal-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.72em;
+  width: 0.42rem;
+  height: 0.42rem;
+  border-radius: 50%;
+  background: var(--sea-deep);
+}
+
+.signal-list {
+  margin-top: 0.5rem;
+}
+
+.signal-row h3 a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.14em;
+}
+
+.signal-label {
+  margin-bottom: 0.45rem;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.signal-row {
+  display: grid;
+  gap: 0.8rem;
+  padding: 1.2rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.proposal-footer {
+  padding: 2rem 0 0;
+  border-top: 1px solid var(--line);
+}
+
+.proposal-footer p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+}
+
+.proposal-footer a {
+  color: var(--ink);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.14em;
+}
+
+@media (max-width: 900px) {
+  .masthead-inner {
+    gap: 2.4rem;
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    --container: min(100% - 1.25rem, 1180px);
+    --headline: min(100% - 1.25rem, 60rem);
+    --article: min(100% - 1.25rem, 44rem);
+  }
+
+  .masthead {
+    padding: 0.85rem 0 1.6rem;
+  }
+
+  .masthead-copy {
+    padding-top: 2.35rem;
+  }
+
+  h1 {
+    font-size: clamp(2.85rem, 12vw, 4rem);
+    line-height: 0.92;
+  }
+
+  h2 {
+    font-size: 1.65rem;
+    line-height: 0.98;
+  }
+
+  .masthead-note,
+  .proposal p,
+  .signal-row p,
+  .proposal-list li {
+    font-size: 1rem;
+  }
+
+  .masthead-title {
+    max-width: 10.2ch;
+  }
+
+  .lead {
+    font-size: 1.32rem;
+    line-height: 1.28;
+  }
+
+  .proposal-section {
+    padding: 1.85rem 0;
+  }
+
+  .article-figure {
+    margin: 2rem 0 1.75rem;
+  }
+
+  .signal-row {
+    padding: 1rem 0;
+  }
+
+  .button {
+    width: 100%;
+  }
+}

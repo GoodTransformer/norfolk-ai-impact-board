@@ -1,0 +1,17 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#132027"/>
+  <rect width="1200" height="630" fill="url(#paint0_linear)"/>
+  <path d="M0 494C126 448 247 470 353 440C454 411 540 332 652 329C781 326 855 415 975 423C1061 429 1129 397 1200 342V630H0V494Z" fill="#89A8AB"/>
+  <path d="M0 566C140 518 260 531 380 502C515 470 603 400 707 420C809 440 907 536 1014 551C1079 560 1149 541 1200 511V630H0V566Z" fill="#D1B47B"/>
+  <path d="M72 74H1128V556H72V74Z" stroke="rgba(19,32,39,0.12)"/>
+  <text x="88" y="126" fill="#DCE5E2" font-family="Georgia, serif" font-size="24" letter-spacing="6">NORFOLK</text>
+  <text x="88" y="278" fill="#F3EFE6" font-family="Georgia, serif" font-size="108" font-weight="600">AI Impact</text>
+  <text x="88" y="378" fill="#F3EFE6" font-family="Georgia, serif" font-size="108" font-weight="600">Board</text>
+  <text x="88" y="450" fill="#DCE5E2" font-family="Arial, sans-serif" font-size="30">A proposal for helping Norfolk respond to the agentic AI shift</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="74" y1="30" x2="975" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#173139"/>
+      <stop offset="1" stop-color="#112128"/>
+    </linearGradient>
+  </defs>
+</svg>
