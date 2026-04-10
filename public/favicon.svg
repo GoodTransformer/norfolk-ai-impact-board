@@ -1,5 +1,22 @@
 <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="128" height="128" rx="28" fill="#132027"/>
-  <path d="M34 89V38H44.5L64 67.5L83.5 38H94V89H82.5V58.1L68.2 79.6H59.5L45.5 58.2V89H34Z" fill="#F3EFE6"/>
-  <path d="M98 28L106 36L88 54L80 46L98 28Z" fill="#B86F3D"/>
+  <defs>
+    <!-- Sky-to-sea gradient, mirroring the hero's landscape layers -->
+    <linearGradient id="bg" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%"   stop-color="#132027"/>
+      <stop offset="100%" stop-color="#6A8486"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="128" height="128" rx="26" fill="url(#bg)"/>
+
+  <!-- N letterform: hero cream highlight #F3EFE6 -->
+  <rect x="26" y="26" width="14" height="76" fill="#F3EFE6"/>
+  <polygon points="40,26 55,26 88,102 73,102" fill="#F3EFE6"/>
+  <rect x="88" y="26" width="14" height="76" fill="#F3EFE6"/>
+
+  <!-- Node accents: hero golden field #D1B47B (top/bottom) + copper #B86F3D (centre) -->
+  <circle cx="33" cy="33" r="5.5" fill="#D1B47B"/>
+  <circle cx="64" cy="64" r="4.5" fill="#B86F3D"/>
+  <circle cx="95" cy="95" r="5.5" fill="#D1B47B"/>
 </svg>
