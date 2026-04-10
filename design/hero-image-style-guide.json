@@ -1,0 +1,264 @@
+{
+  "aesthetic_name": "retro-futurist civic geometric landscape",
+  "summary": "A calm, premium, mid-century-meets-future editorial illustration built from simplified architecture, sweeping infrastructure curves, and layered geometric landforms. The image feels civic, architectural, and slightly technological without becoming glossy or cyberpunk.",
+  "core_identity": {
+    "style_family": [
+      "mid-century modern graphic illustration",
+      "retro-futurist editorial landscape",
+      "geometric architectural abstraction",
+      "soft-grain vector poster style"
+    ],
+    "visual_character": [
+      "clean but textured",
+      "architectural",
+      "ordered",
+      "calm",
+      "premium",
+      "slightly utopian",
+      "designed rather than hand-drawn"
+    ],
+    "keywords": [
+      "geometric",
+      "architectural",
+      "layered",
+      "streamlined",
+      "civic",
+      "infrastructural",
+      "editorial",
+      "muted",
+      "soft grain",
+      "curvilinear",
+      "modular"
+    ]
+  },
+  "composition": {
+    "format": "wide 16:9 landscape",
+    "structure": "panoramic scene with a large stepped building on the left-centre, vertical framing forms on the right, and flowing road/data-like ribbons moving through the foreground and midground",
+    "balance": "asymmetrical but controlled, with heavier mass on the left offset by tall curved forms and spire elements on the right",
+    "depth_strategy": [
+      "foreground ribbon-like roads and cutaway shapes",
+      "midground architecture and terraces",
+      "background silhouettes, hills, and simplified landmark structures"
+    ],
+    "spatial_logic": "flattened perspective with stacked planes rather than realistic depth",
+    "focal_points": [
+      "stepped modernist building block",
+      "cathedral or civic spire on the right",
+      "glowing curved route lines crossing the middle-right area"
+    ],
+    "negative_space": "cream-coloured breathing room around and between clustered forms",
+    "cropping_behavior": "elements extend to the frame edges in a poster-like way, but the scene still feels contained and composed"
+  },
+  "shape_language": {
+    "dominant_shapes": [
+      "rounded rectangles",
+      "broad arches",
+      "sweeping S-curves",
+      "stepped blocks",
+      "long horizontal bands",
+      "soft hills",
+      "tapered spires"
+    ],
+    "geometry_traits": [
+      "precise edges",
+      "large simplified masses",
+      "repetition of modular window-like rectangles",
+      "curves used to soften otherwise rigid architecture"
+    ],
+    "line_quality": "mostly crisp vector edges with occasional thin linear detailing",
+    "motif_types": [
+      "terraced architecture",
+      "roads or transit ribbons",
+      "arched underpasses",
+      "stone or pebble textures in bounded sections",
+      "minimal landmark silhouettes"
+    ]
+  },
+  "colour_palette": {
+    "overall_tone": "muted, dusty, sophisticated, low-saturation",
+    "background_base": [
+      {
+        "name": "warm ivory",
+        "hex": "#F2EBDD"
+      },
+      {
+        "name": "soft cream",
+        "hex": "#EDE6D6"
+      }
+    ],
+    "primary_colours": [
+      {
+        "name": "deep teal",
+        "hex": "#173F4A"
+      },
+      {
+        "name": "blue-green slate",
+        "hex": "#355C63"
+      },
+      {
+        "name": "dusty sage",
+        "hex": "#A8B9A1"
+      },
+      {
+        "name": "muted eucalyptus",
+        "hex": "#8FA89A"
+      }
+    ],
+    "secondary_colours": [
+      {
+        "name": "powder blue",
+        "hex": "#B9D0DE"
+      },
+      {
+        "name": "mist blue",
+        "hex": "#9DBACC"
+      },
+      {
+        "name": "pale stone",
+        "hex": "#D9D4C8"
+      }
+    ],
+    "accent_colours": [
+      {
+        "name": "burnt terracotta",
+        "hex": "#B9633D"
+      },
+      {
+        "name": "rust clay",
+        "hex": "#8E4A2F"
+      },
+      {
+        "name": "soft luminous white",
+        "hex": "#F4F6EF"
+      }
+    ],
+    "usage_notes": {
+      "darks": "used for structure, framing, windows, roads, and contrast anchors",
+      "lights": "used for background, building faces, and visual breathing room",
+      "warm_accents": "used sparingly to create rhythm and guide the eye",
+      "cool_accents": "used in route bands and atmospheric layers"
+    }
+  },
+  "materials_and_texture": {
+    "surface_finish": "matte",
+    "texture_type": [
+      "fine grain",
+      "soft airbrush fade",
+      "subtle paper-like noise",
+      "gentle tonal speckling"
+    ],
+    "texture_intensity": "light to medium, enough to avoid flat digital sterility",
+    "rendering_feel": "vector-based forms with analogue print softness",
+    "shadow_treatment": "minimal, mostly implied by tonal layering rather than cast shadow realism",
+    "lighting": "diffuse and even, with occasional glow accents"
+  },
+  "detail_language": {
+    "architectural_detail": [
+      "repeating window bands",
+      "simplified stairways",
+      "minimal masonry outlines",
+      "thin contour details on landmark structures"
+    ],
+    "ornament_level": "low",
+    "pattern_usage": [
+      "pebble or terrazzo-like infill in bounded sections",
+      "fine parallel striping in vents and paths",
+      "small dash clusters suggesting lights or interface marks"
+    ],
+    "tech_signifiers": [
+      "glowing route lines",
+      "tiny horizontal dash clusters",
+      "clean infrastructural flow paths"
+    ],
+    "abstraction_level": "high enough to feel stylised, low enough to remain legible as a place"
+  },
+  "mood_and_tone": {
+    "mood": [
+      "measured",
+      "intelligent",
+      "contemplative",
+      "hopeful",
+      "civic",
+      "quietly futuristic"
+    ],
+    "avoids": [
+      "chaos",
+      "neon futurism",
+      "corporate stock blandness",
+      "harsh realism",
+      "cartoon cuteness"
+    ],
+    "emotional_read": "a city or civic environment imagined as elegant, ordered infrastructure with culture and memory embedded into it"
+  },
+  "influences": {
+    "probable_inspirations": [
+      "mid-century travel posters",
+      "editorial magazine illustration",
+      "modernist architectural graphics",
+      "public information design",
+      "Bauhaus-adjacent simplification",
+      "soft retro sci-fi landscapes"
+    ],
+    "adjacent_styles": [
+      "cut-paper collage",
+      "screenprint poster design",
+      "minimalist concept art"
+    ]
+  },
+  "scene_elements": {
+    "architecture": [
+      "stepped modernist building mass",
+      "civic or castle-like tower outline",
+      "cathedral-like spire",
+      "bridges, stairs, and terraces"
+    ],
+    "landscape": [
+      "soft hills",
+      "abstracted pathways",
+      "elevated routes",
+      "layered ground planes"
+    ],
+    "infrastructure": [
+      "road or transit ribbons",
+      "luminous route lines",
+      "underpasses",
+      "elevated linear pathways"
+    ],
+    "decorative_insets": [
+      "stone mosaic texture panels",
+      "small coded dash marks"
+    ]
+  },
+  "style_rules": {
+    "do": [
+      "use simplified civic and architectural forms",
+      "keep colours muted and balanced",
+      "blend hard geometry with sweeping curves",
+      "add subtle grain for warmth",
+      "maintain a premium editorial poster feel",
+      "use terracotta accents sparingly against cool teals and creams"
+    ],
+    "do_not": [
+      "use glossy 3D rendering",
+      "use high-saturation neon",
+      "add photorealistic textures",
+      "overcrowd the composition with tiny details",
+      "use black outlines everywhere",
+      "make it cute, comic, or playful"
+    ]
+  },
+  "exclusions": {
+    "remove_or_avoid": [
+      "little star shape",
+      "sparkle icon",
+      "Gemini-like logo mark",
+      "any bottom-right corner emblem or signature glyph"
+    ],
+    "note": "The decorative star or Gemini-style symbol in the bottom-right corner should not be repeated or regenerated."
+  },
+  "reference_asset": {
+    "file": "public/images/norfolk-hero-art.jpg",
+    "note": "This is the canonical reference image for this style. The Gemini watermark that originally appeared in the bottom-right corner has been removed. Use this file as the visual benchmark when generating or commissioning new assets."
+  },
+  "prompt_ready_description": "Create a wide retro-futurist civic landscape illustration with a stepped modernist building, a cathedral-like spire, castle-like linework, layered hills, terraces, and sweeping road or data-ribbon curves. Use a muted palette of warm ivory, deep teal, dusty sage, powder blue, and restrained burnt terracotta. Keep the composition architectural, geometric, and calm, with subtle grain and soft airbrushed tonal transitions. The style should feel like a premium mid-century editorial poster crossed with modern infrastructural concept art. No logos, no signature marks, and no star or sparkle symbol in the corner."
+}
