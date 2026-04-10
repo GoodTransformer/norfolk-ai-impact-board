@@ -1,7 +1,7 @@
 export const site = {
   title: "The case for an AI Impact Board for Norfolk",
   description:
-    "A longform proposal for helping Norfolk's business and civic leaders understand and respond to the shift from chatbot AI to agentic AI.",
+    "A proposal for helping Norfolk's business and civic leaders understand and respond to the shift from chatbot AI to agentic AI.",
   eyebrow: "Proposal for discussion",
   note:
     "Prepared for discussion with Norfolk Chambers of Commerce leadership and relevant digital governance stakeholders."
