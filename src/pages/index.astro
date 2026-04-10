@@ -20,7 +20,11 @@ const basePath = import.meta.env.BASE_URL.endsWith("/")
           </h1>
           <p class="masthead-note">{site.note}</p>
           <div class="masthead-actions">
-            <a class="button button-solid" href={`${basePath}briefings/norfolk-ai-impact-board-proposal.docx`}>
+            <a
+              class="button button-solid"
+              href={`${basePath}briefings/norfolk-ai-impact-board-proposal.docx`}
+              download="norfolk-ai-impact-board-proposal.docx"
+            >
               Download proposal
             </a>
             <a
