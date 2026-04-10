@@ -1,6 +1,10 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { intro, proposalSections, signalNotes, site } from "../data/content";
+
+const basePath = import.meta.env.BASE_URL.endsWith("/")
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
 ---
 
 <BaseLayout title={site.title} description={site.description}>
@@ -16,12 +20,12 @@ import { intro, proposalSections, signalNotes, site } from "../data/content";
           </h1>
           <p class="masthead-note">{site.note}</p>
           <div class="masthead-actions">
-            <a class="button button-solid" href={`${import.meta.env.BASE_URL}briefings/norfolk-ai-impact-board-proposal.docx`}>
+            <a class="button button-solid" href={`${basePath}briefings/norfolk-ai-impact-board-proposal.docx`}>
               Download proposal
             </a>
             <a
               class="button button-accent"
-              href={`${import.meta.env.BASE_URL}briefings/norfolk-ai-impact-board-presentation.pptx`}
+              href={`${basePath}briefings/norfolk-ai-impact-board-presentation.pptx`}
               download="norfolk-ai-impact-board-presentation.pptx"
             >
               Download presentation
@@ -58,12 +62,13 @@ import { intro, proposalSections, signalNotes, site } from "../data/content";
             {index === 3 && (
               <figure class="article-figure">
                 <img
-                  src={`${import.meta.env.BASE_URL}images/norfolk-hero-art.png`}
+                  src={`${basePath}images/norfolk-hero-art.jpg`}
                   alt="Stylised illustration of Norfolk's civic, economic and physical landscape."
-                  width="2816"
-                  height="1536"
-                  loading="lazy"
+                  width="1600"
+                  height="872"
+                  loading="eager"
                   decoding="async"
+                  fetchpriority="high"
                 />
                 <figcaption>Illustration of Norfolk's civic and economic landscape.</figcaption>
               </figure>
